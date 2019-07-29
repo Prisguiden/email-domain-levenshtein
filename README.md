@@ -1,10 +1,5 @@
 # email-domain-levenshtein
-
-
-[![Build Status](https://travis-ci.org/bredele/email-domain-levenshtein.svg?branch=master)](https://travis-ci.org/bredele/email-domain-levenshtein)
- [![NPM](https://img.shields.io/npm/v/email-domain-levenshtein.svg)](https://www.npmjs.com/package/email-domain-levenshtein)
- [![Downloads](https://img.shields.io/npm/dm/email-domain-levenshtein.svg)](http://npm-stat.com/charts.html?package=email-domain-levenshtein)
- [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
+Fork of: https://github.com/bredele/email-domain-levenshtein
 
 Suggest email address based on the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the given address and a [list of popular domains](https://github.com/bredele/email-domain-popular).
 
@@ -27,18 +22,6 @@ suggest('world@yahop.com')
 ```shell
 npm install email-domain-levenshtein --save
 ```
-
-[![NPM](https://nodei.co/npm/email-domain-levenshtein.png)](https://nodei.co/npm/email-domain-levenshtein/)
-
-
-## Question
-
-For questions and feedback please use our [twitter account](https://twitter.com/bredeleca). For support, bug reports and or feature requests please make sure to read our
-<a href="https://github.com/bredele/contributing-guide/blob/master/guidelines.md" target="_blank">community guideline</a> and use the issue list of this repo and make sure it's not present yet in our reporting checklist.
-
-## Contribution
-
-email-domain-levenshtein is an open source project and would not exist without its community. If you want to participate please make sure to read our <a href="https://github.com/bredele/contributing-guide/blob/master/guidelines.md" target="_blank">guideline</a> before making a pull request. If you have any email-domain-levenshtein related project, component or other let everyone know in our wiki.
 
 ## License
 
