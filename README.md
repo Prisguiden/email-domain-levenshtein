@@ -7,7 +7,7 @@ Suggest email address based on the [Levenshtein distance](https://en.wikipedia.o
 
 
 ```js
-const EmailSuggester = require('EmailSuggester')
+const EmailSuggester = require("@prisguiden/email-domain-levenshtein")
 
 es = new EmailSuggester(["icloud.com"]);
 
@@ -22,13 +22,14 @@ es.suggest('hello@iclod.com')
 ## Installation
 
 ```shell
-npm install email-domain-levenshtein --save
+npm install @prisguiden/email-domain-levenshtein --save
 ```
 
 ## License
 
 The MIT License (MIT)
 
+Copyright (c) 2019 Erik Perez, Prisguiden.no
 Copyright (c) 2016 Olivier Wietrich
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
