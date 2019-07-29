@@ -1,5 +1,5 @@
 {
-  "name": "email-domain-levenshtein",
+  "name": "@prisguiden/email-domain-levenshtein",
   "version": "1.0.0",
   "description": "Distance between given email and popular domains",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bredele/email-domain-levenshtein.git"
+    "url": "git+https://github.com/prisguiden/email-domain-levenshtein.git"
   },
   "keywords": [
     "email",
@@ -23,12 +23,9 @@
     "suggestion",
     "levenshtein"
   ],
-  "author": "Olivier Wietrich",
+  "author": "Erik Perez <erik.p@prisguide.no>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bredele/email-domain-levenshtein/issues"
-  },
-  "homepage": "https://github.com/bredele/email-domain-levenshtein#readme",
+  "homepage": "https://github.com/prisguiden/email-domain-levenshtein",
   "devDependencies": {
     "tape": "^4.9.1"
   },
