@@ -7,13 +7,15 @@ Suggest email address based on the [Levenshtein distance](https://en.wikipedia.o
 
 
 ```js
-const suggest = require('email-domain-levenshtein')
+const EmailSuggester = require('EmailSuggester')
 
-suggest('hello@gnail.com')
-// => hello@gmail.com
+es = new EmailSuggester(["icloud.com"]);
 
-suggest('world@yahop.com')
-// => world@yahoo.com
+es.suggest('hello@gnail.com')
+// => [{email: hello@gmail.com, distance: 2}, ...]
+
+es.suggest('hello@iclod.com')
+// => [{email: hello@icloud.com, distance: 2}, ...]
 ```
 
 
