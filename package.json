@@ -1,6 +1,6 @@
 {
   "name": "@prisguiden/email-domain-levenshtein",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Distance between given email and popular domains",
   "main": "index.js",
   "directories": {
