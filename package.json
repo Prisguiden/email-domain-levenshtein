@@ -1,6 +1,6 @@
 {
   "name": "@prisguiden/email-domain-levenshtein",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Distance between given email and popular domains",
   "main": "index.js",
   "directories": {
@@ -16,13 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/prisguiden/email-domain-levenshtein.git"
   },
-  "keywords": [
-    "email",
-    "domain",
-    "distance",
-    "suggestion",
-    "levenshtein"
-  ],
+  "keywords": ["email", "domain", "distance", "suggestion", "levenshtein"],
   "author": "Erik Perez <erik.p@prisguide.no>",
   "license": "MIT",
   "homepage": "https://github.com/prisguiden/email-domain-levenshtein",
