@@ -2,11 +2,12 @@
   "name": "@prisguiden/email-domain-levenshtein",
   "version": "1.0.2",
   "description": "Distance between given email and popular domains",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "build": "babel index.js -d dist/",
     "test": "tape test/*.js"
   },
   "engines": {
@@ -16,11 +17,20 @@
     "type": "git",
     "url": "git+https://github.com/prisguiden/email-domain-levenshtein.git"
   },
-  "keywords": ["email", "domain", "distance", "suggestion", "levenshtein"],
+  "keywords": [
+    "email",
+    "domain",
+    "distance",
+    "suggestion",
+    "levenshtein"
+  ],
   "author": "Erik Perez <erik.p@prisguide.no>",
   "license": "MIT",
   "homepage": "https://github.com/prisguiden/email-domain-levenshtein",
   "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "tape": "^4.9.1"
   },
   "dependencies": {
