@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "description": "Distance between given email and popular domains",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "directories": {
     "test": "test"
   },
